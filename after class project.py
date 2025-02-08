@@ -36,6 +36,6 @@ def get_temperature(city, api_key):
         return "Could not retrieve temperature. Please check the city name and try again."
 
 # Replace 'your_api_key_here' with your actual API key from OpenWeatherMap
-api_key = c601ef2a92251add92fa81a351a197d6
+api_key = 'c601ef2a92251add92fa81a351a197d6'
 city = input("Enter the city name: ")
 print(get_temperature(city, api_key))
